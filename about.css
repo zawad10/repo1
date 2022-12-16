@@ -1,0 +1,84 @@
+html {
+    background-color: black;
+    }
+    h1, h4 {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        text-align: center;
+        }
+    p {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: white;
+      text-align: center;
+      opacity: 50%;
+    }
+    footer {
+      position: absolute;
+      bottom: 5;
+      height: 20px;
+      width: 100%;
+    }
+    * {
+        box-sizing:border-box
+      }
+    .sponsorbox {
+        text-align: center;
+    }
+    .imgcluster {
+        text-align: center;
+        border: solid white 10px;
+        border-radius: 20px;
+        background-color: white;
+    }
+    .topnav {
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: white;
+      overflow: hidden;
+      margin: 20px;
+    }
+    .topnav a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a.active {
+      background-color: black;
+      color: white;
+    }
+    .topnav .icon {
+      display: none;
+    }
+    .topnav :hover {
+      color: orangered;
+      background-color: black;
+    }
+    .signupbutton {
+      text-align: center;
+      margin: 75px;
+    }
+    .signupbutton :hover {
+      background-color: orangered;
+      color: white;
+    }
+    .button {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      border: none;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    @media only screen and (max-width: 300px) {
+        img {
+          width: 50%;
+        }
+             
+      }
+      @media only screen and (min-width:321px) and (max-width:768px) {
+        img {
+          width: 75%;
+        }
+      }
